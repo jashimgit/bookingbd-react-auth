@@ -1,0 +1,6 @@
+{
+    "emmet.includeLanguages": {
+        "javascript" : "javascriptreact"
+    },
+    "editor.fontFamily": "'Operator mono light',Consolas, 'Courier New', monospace"
+}
