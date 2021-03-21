@@ -49,11 +49,14 @@ const CategoryDetails = () => {
                                     <span>To</span> <h4>Narshingdi </h4>
                                    
                                     <table className="table table-striped">
+                                       <thead>
                                         <tr>
                                             <th>Image</th>
                                             <th>Seat No</th>
                                             <th>Price</th>
                                         </tr>
+                                        </thead>
+                                        <tbody>
                                       
                                    { findData.map(data => (
                                         <tr>
@@ -65,6 +68,7 @@ const CategoryDetails = () => {
                                            <td>BDT. {data.Price}</td>
                                        </tr>
                                     ))  }  
+                                    </tbody>
                                     </table>
 
                                </div>
