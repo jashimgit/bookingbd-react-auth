@@ -1,6 +1,14 @@
 {
-    "emmet.includeLanguages": {
-        "javascript" : "javascriptreact"
-    },
-    "editor.fontFamily": "'Operator mono light',Consolas, 'Courier New', monospace"
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"editor.fontFamily": "'Operator Mono Light', Consolas, 'Courier New', monospace",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"editor.quickSuggestionsDelay": 5,
+	"editor.snippetSuggestions": "bottom",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 15
 }
