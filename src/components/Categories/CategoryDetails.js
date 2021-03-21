@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router';
 import catItems from '../fakeData/categoryitem';
-import Map from './../Map/Map';
+
 
 const CategoryDetails = () => {
     const [categoryItem, setCategoryItem] = useState(catItems);
