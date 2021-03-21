@@ -81,7 +81,7 @@ const CategoryDetails = () => {
                     </div>
                 </div>
                 <div className="col-md-8">
-                <Map />
+                               <h3>Map section</h3>
                 </div>
             </div>
         </div>
